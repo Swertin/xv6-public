@@ -225,7 +225,7 @@ fork(void)
 // An exited process remains in the zombie state
 // until its parent calls wait() to find out it exited.
 void
-exit(void)
+exit(int n)
 {
   struct proc *curproc = myproc();
   struct proc *p;
@@ -531,4 +531,9 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+
+void
+hello(void) {
+  cprintf("\n\nHello from your kernel space! \n\n");
 }

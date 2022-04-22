@@ -170,6 +170,7 @@ UPROGS=\
 	_echo\
 	_forktest\
 	_grep\
+	_hello\
 	_init\
 	_kill\
 	_ln\
@@ -178,6 +179,7 @@ UPROGS=\
 	_rm\
 	_sh\
 	_stressfs\
+	_test\
 	_usertests\
 	_wc\
 	_zombie\
