@@ -1,0 +1,9 @@
+#include "types.h"
+#include "user.h"
+#include "stat.h"
+
+int main(int argc, cahr *argv[]) {
+    //printf(1,"hello world \n");
+    hello();
+    exit(0);
+}
